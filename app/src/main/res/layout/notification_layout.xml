@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Time: "
+        android:textColor="@color/black"
+        android:layout_marginLeft="24dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTimeAlarm"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="1 Am"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtAlarmStop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Stop"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="5dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtAlarmSnooze5Minutes"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Snooze 5min"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="5dp"
+        android:textSize="18dp"/>
+
+</LinearLayout>
